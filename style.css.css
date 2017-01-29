@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Proza+Libre"
+    margin: 0;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+ }
+/* navigation */
+}
+header .container {
+  display: flex;
+}
+nav ul {
+  list-style:none;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 120px;
+  background-color: greenyellow;
+}
+li a {
+  color: red;
+  text-decoration: none;
+  width: 40px;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+  height: 55vh;
+  display: flex;
+  color: white;
+  background-color: red;
+  display: flex;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+h1 {
+  font-size: 75px;
+}
+/*gallery */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  margin: 30px;
+  min-width: 225px;
+  min-height: 135px;
+  background-color: yellow;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*footer*/
+
+footer {
+  background-color: greenyellow;
+  color: red;
+}
+
+footer .container {
+  height: 100px;
+  display: flex; 
+}
+
+.rights, .company, .contact {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.company {
+  flex-grow: 2;
+}
+ 
+
+
